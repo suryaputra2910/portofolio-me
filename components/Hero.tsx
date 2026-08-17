@@ -201,25 +201,6 @@ export default function Hero() {
           <ProfileImage />
         </div>
       </motion.div>
-
-      <motion.a
-        href="#about"
-        aria-label="Scroll to About section"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.8, duration: 0.6 }}
-        className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-zinc-500 transition-colors hover:text-violet-300 md:flex"
-      >
-        <span className="font-mono text-[10px] tracking-[0.3em] uppercase">
-          Scroll
-        </span>
-        <motion.span
-          animate={reduce ? undefined : { y: [0, 7, 0] }}
-          transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <ArrowDown className="h-4 w-4" />
-        </motion.span>
-      </motion.a>
     </section>
   );
 }
