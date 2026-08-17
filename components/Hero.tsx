@@ -153,8 +153,8 @@ export default function Hero() {
       transition: { duration: 0.5, ease: EASE },
     },
   }}
-  href="/cv/SuryaCv.pdf"
-  download="SuryaCv.pdf"
+  href="/cv/Cv Baru.pdf"
+  download="Cv Baru.pdf"
   className="inline-flex items-center gap-2 rounded-full border border-[#27272a] bg-[#111113]/70 px-6 py-3 text-sm font-semibold text-zinc-200 backdrop-blur-sm transition-all hover:-translate-y-0.5 hover:border-violet-500/40 hover:text-white"
 >
   <Download className="h-4 w-4" />
