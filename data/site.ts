@@ -7,7 +7,7 @@ export const siteConfig = {
   name: "Surya Putrahadi Yustitia",
   shortName: "Surya.dev",
   role: "Software Engineering Student & Frontend Web Developer",
-  location: "Malang, Indonesia",
+  location: "Kota Malang, Indonesia",
   email: "suryaputrahadi29@gmail.com",
   phone: "083857642962",
   // === Replace these later ===
