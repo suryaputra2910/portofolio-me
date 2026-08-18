@@ -22,9 +22,9 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
           <div>
             <p className="font-mono text-lg font-semibold text-zinc-100">
-              <span className="text-violet-400">{"<"}</span>Surya
+              <span className="text-violet-400"></span>Surya
               <span className="text-cyan-300">.dev</span>
-              <span className="text-violet-400">{" />"}</span>
+              <span className="text-violet-400"></span>
             </p>
             <p className="mt-3 text-sm font-medium text-zinc-300">
               {siteConfig.name}
